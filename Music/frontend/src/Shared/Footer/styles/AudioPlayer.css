@@ -1,0 +1,132 @@
+.audio-player {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress{
+    height: 25px;
+    padding: 0 10px;
+    display: flex;
+}
+
+.progress > input {
+    width: 100%;
+    margin: 5px 3px;
+}
+
+.controls-wrapper{
+    display: flex;
+    padding-top: 5px;
+}
+
+.controls-displaytrack-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.controls-button{
+    background-color: transparent;
+    border: 0px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.controls-button:hover{
+    cursor: pointer;
+}
+
+input[type="range"]:hover{
+    cursor: pointer;
+}
+
+svg{
+    height: 28px;
+    width: 28px;
+    opacity: 0.6;
+}
+
+svg:hover{
+    opacity: 1;
+}
+
+.song-image{
+    height: 45px;
+    width: 45px;
+}
+
+.audio-info{
+    padding-left: 80px;
+    display: flex;
+}
+
+.track-info-player{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.song-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.song-title:hover{
+    color: #bf94ff;
+}
+
+.song-artist{
+    margin-top: 1px;
+    font-size: 0.85rem;
+}
+
+.song-artist:hover{
+    color: #bf94ff;
+}
+
+.like-button-player{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: 0px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.like-button-player:hover{
+    cursor: pointer;
+}
+
+.repeat-container{
+    right: 0;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.repeat-icon{
+    height: 28px;
+    width: 28px;
+    opacity: 1;
+}
+
+.repeat-icon:hover{
+    opacity: 0.7;
+}
+
+.onrepeat{
+    stroke: red;
+}
+
+.favourite {
+    fill: red;
+}

@@ -1,0 +1,69 @@
+.album-page-wrapper{
+    padding: 3rem;
+}
+
+.album-poster{
+    object-fit: fill;
+    width: 300px;
+    height: 300px;
+}
+
+.album-page-album-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.album-title-artist-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left:3rem;
+}
+
+.album-page-album-title{
+    font-size: 4rem;
+}
+
+.album-page-artist{
+    font-size: 1.3rem;
+}
+
+.album-page-artist:hover{
+    color: #bf94ff;
+}
+
+.favourite {
+    fill: red;
+}
+
+.album-like-button:hover{
+    cursor: pointer;
+}
+
+.album-like-button{
+    background-color: transparent;
+    border: 0px;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.album-controls-container{
+    margin-top:auto;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.listen-button:hover {
+    cursor: pointer;
+    background-color: #6f35c7;
+}
+
+.listen-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #9147ff;
+    border: 0px;
+    border-radius: 0.7rem;
+    color: white;
+}

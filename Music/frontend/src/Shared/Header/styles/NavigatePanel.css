@@ -1,0 +1,29 @@
+.logo{
+    opacity: 1;
+}
+
+.logo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navigate-element{
+    width: 136px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-content:center;
+}
+
+.active{
+    border-bottom: 4px solid #bf94ff;
+}
+
+.link, .link:visited{
+    text-decoration: none;
+    color: #e1e1e1;
+}
+

@@ -1,0 +1,57 @@
+.vibe-wrapper{
+    background-color: #09040f;
+    width: 100%;
+    height: 80vh;
+    max-height: 940px;
+}
+
+.background-overlay{
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 80vh;
+    max-height: 940px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.background-video{
+    position: absolute;
+    top: 75px;
+    padding-top: 1rem;
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+    max-height: 940px;
+}
+
+.vibe-content{
+    position:relative;
+    text-align: center;
+    top: 35%;
+    z-index: 2;
+}
+
+.play-button{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 0px;
+    padding: 0;
+    height: 90px;
+    width: 90px;
+}
+
+.play-svg{
+    height: 70px;
+    width: 70px;
+    opacity: 1;
+}
+
+.play-svg:hover{
+    height: 85px;
+    width: 85px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,92 @@
+.track-container{
+    height: auto;
+    min-height: 50px;
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.track-container:hover{
+    border: 2px solid white;
+}
+
+.track-cover-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.track-cover{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.track-cover.hovered{
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+
+.track-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.track-author{
+    color: #cbcaca;
+    font-size: 16px;
+}
+
+.track-title{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.track-author:hover{
+    color: #bf94ff;
+}
+
+.track-title:hover{
+    color: #bf94ff;
+}
+
+.play-icon {
+    position: absolute;
+    cursor:pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+.track-play-svg{
+    opacity: 0.7;
+    height: 40px;
+    width: 40px;
+}
+
+.like-button{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: 0px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.like-button:hover{
+    cursor: pointer;
+}
+
+.like-container{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.favourite {
+    fill: red;
+}

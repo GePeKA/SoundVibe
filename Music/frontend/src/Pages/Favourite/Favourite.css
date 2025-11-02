@@ -1,0 +1,20 @@
+.favourites-wrapper{
+    padding: 5rem;
+}
+
+.tracks-wrapper{
+    margin-top: 3rem;
+    margin-bottom: 100px;
+}
+
+.tracks-container{
+    margin-top: 1rem;
+    width: 80%
+}
+
+.albums-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+.footer{
+    background-color: #242424;
+    opacity: 0.95;
+    height: 75px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    z-index: 101;
+}
