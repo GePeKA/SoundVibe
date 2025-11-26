@@ -1,4 +1,4 @@
-# MelodyFlow - Cloud Music Streaming Service
+# SoundVibe - Cloud Music Streaming Service
 
 A full-stack web application for uploading, storing, and streaming music. Built with a clean architecture backend and a modern React frontend.
 
