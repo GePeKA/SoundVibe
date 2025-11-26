@@ -24,3 +24,5 @@ The solution follows Clean Architecture principles, ensuring separation of conce
 *   `Application` (Interfaces, Services)
 *   `Infrastructure` (Data, Cloud Storage, Email)
 *   `WebAPI` (Controllers)
+
+<img width="710" height="688" alt="Снимок экрана 2024-07-09 220142" src="https://github.com/user-attachments/assets/d30b492c-fb78-44c0-9dd0-3d5a22022ae1" />
